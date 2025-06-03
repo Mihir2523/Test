@@ -11,4 +11,4 @@ def a():
             "b":[6,7,8,9,10]
         })
     e = c['a']
-    return {"data" : list(range(100)),"sum":b.sum(),"temp":e.tolist()}
+    return {"data" : list(range(100)),"sum":int(b.sum()),"temp":e.tolist()}
